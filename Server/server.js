@@ -10,7 +10,7 @@ const path = require('path');
 dotenv.config();
 
 
-const mongodbURL = config.MONGODB_URL || 'mongodb://localhost/my_database';
+const mongodbURL = config.MONGODB_URL || 'mongodb+srv://sunil_101:Sunil10101@cluster0.kaf0c.mongodb.net/mern-acc?retryWrites=true&w=acc';
 mongoose.connect(mongodbURL,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
